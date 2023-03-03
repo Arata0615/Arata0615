@@ -1,0 +1,55 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+hr{
+    border: 1px solid rgb(204, 198, 198);
+    margin-bottom: 25px;
+}
+
+.container{
+    padding: 16px;
+    background-color: white;
+    width: 50%;
+    margin: auto;
+}
+
+.registerbtn{
+    background-color: rgba(10, 127, 145, 0.516);
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    width: 100%;
+    opacity: 0.9;
+}
+
+a{
+    color: dodgerblue;
+}
+
+.container-signin{
+    background-color: rgb(197, 196, 196);
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    height: 80px;
+    padding: 20px 0;
+}
+
+input{
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background-color: rgb(206, 203, 203);
+}
+
+
+

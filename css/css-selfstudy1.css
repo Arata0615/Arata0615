@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+    /* background-color: ; */
+}
+
+body{
+    background-color: black;
+}
+
+hr{
+    border: 1px solid rgb(210, 209, 209);
+    margin-bottom: 30px;
+}
+
+.container{
+    width: 50%;
+    margin: auto;
+    padding: 15px;
+    background-color: white;
+}
+
+.registerbtn{
+    background-color: rgb(5, 188, 112);
+    padding: 15px;
+    border: none;
+    color: white;
+    width: 100%;
+    margin: 5px 0 20px 0;
+}
+
+a{
+    color: aqua;
+}
+
+.container-signin{
+    width: 50%;
+    margin: auto;
+    padding: 15px 0;
+    background-color: rgb(196, 192, 192);
+    text-align: center;
+    height: 80px;
+}
+
+
+input{
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 15px 0px;
+    border: none;
+    background-color: rgb(190, 185, 185);
+}
+

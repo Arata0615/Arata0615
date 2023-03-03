@@ -1,0 +1,21 @@
+.float-left{
+    float: left;
+    background-color: red;
+    padding: 15px;
+}
+
+.float-right{
+    float: right;
+    background-color: blue;
+    padding: 15px;
+}
+
+.divition-tag{
+    clear: left;
+}
+
+.float-right2{
+    clear: right;
+    background-color: purple;
+    padding: 15px;
+}

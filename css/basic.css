@@ -1,0 +1,51 @@
+h2{
+    color: blueviolet;
+}
+
+/* *{
+    color: gray;
+} */
+p{
+    color: green;
+}
+
+.class-name{
+    background-color: brown;
+    color: #a9a9a9;
+    border: solid 1px rgb(202, 202, 55);
+
+}
+.container{
+    border: solid 1px red;
+}
+.table-red{
+    border: solid 1px red;
+}
+
+#p1{
+    color: rgb(14, 10, 55);
+}
+/* #p2{
+    color: purple;
+} */
+h3.header-1{
+    color: hsl(0, 100%, 50%);
+}
+h3{
+    color: blue;
+}
+ul li {
+    color: blue;
+}
+
+.nav-links li{
+    color: red;
+}
+
+.nav-links .nav-item{
+    color: rgb(46, 175, 46);
+}
+
+.nav-links .nav-item a{
+    color: #56563870;
+}

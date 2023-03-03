@@ -92,7 +92,7 @@ body{
 
 /* introduction area */
 
-.aboutme,.career,.routine, .mater{
+.aboutme,.career,.routine, .mater, .output{
     width: 85%;
     margin: auto;
 }
@@ -173,4 +173,26 @@ table{
     background-color: rgb(47, 82, 255);
     width: 15%;
     border-radius: 15px;
+}
+
+.link{
+    margin: auto;
+    padding: 2em auto;
+    margin-bottom: 1em;    
+}
+
+.link p{
+    color: black;
+    text-align: center;
+
+}
+
+.link a{
+    font-size: 20px;
+    padding: 0 10px;
+
+}
+
+.link span{
+    margin-bottom: 1em;
 }

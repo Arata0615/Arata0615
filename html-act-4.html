@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="#" method="#">
+        <table border="0">
+            <thead>
+                <tr align="center">
+                    <th colspan="4">
+                        <h1>Travel reservation form</h1>
+                    </th>
+                </tr>
+            </thead>
+            <thead>
+                <tr align="center">
+                    <th colspan="4">
+                        <h3>*denotes mandatory</h3>
+                    </th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><label for="fname">First name:</label></td>
+                    <td><input type="text" name="fname" id="fname" placeholder="First name"></td>
+                    <td><label for="lname">last name:</label></td>
+                    <td><input type="text" name="lname" id="lname" placeholder="Last name"></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email Address:</label></td>
+                    <td><input type="email" name="email" id="email" placeholder="Email Address"></td>
+                    <td><label for="package">Select Tour Package</label></td>
+                    <td><select name="package" id="package">
+                            <option value="1-person">1 Person</option>
+                        </select></td>
+                </tr>
+                <tr>
+                    <td><label for="adate">Arrival Date</label></td>
+                    <td><input type="date" name="adate" id="adate"></td>
+                    <td><label for="number">Number of Persons</label></td>
+                    <td><input type="number" name="number" id="number"></td>
+                </tr>
+                <tr>
+                    <td><label for="avail">What would you want to avail</label></td>
+                    <td><input type="checkbox" name="bording" id="bording">
+                        <label for="bording">Bording</label>
+                    </td>
+                    <td><input type="checkbox" name="Fooding" id="Fooding">
+                        <label for="Fooding">Fooding</label>
+                    </td>
+                    <td><input type="checkbox" name="seeing" id="seeing">
+                        <label for="seeing">Sight Seeing</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2"><label for="coupon">Discount Coupon code</label></td>
+                    <td colspan="2"><input type="text" name="coupon" id="coupon" placeholder="Discount Coupon code">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2"><label for="agreement"></label>Terms and conditions</td>
+                    <td><input type="radio" name="agreement" id="agree"><label for="agree">I agree</label></td>
+                    <td><input type="radio" name="agreement" id="disagree"><label for="disagree">I disagree</label></td>
+
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        <input type="submit" name="submit" id="submit" value="Submit">
+    </form>
+</body>
+
+</html>
